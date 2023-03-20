@@ -56,7 +56,7 @@ if (isset($_POST['submit'])) {
         } elseif ($hasil >= 0) {
             $hasil = "Kurang";
         } else {
-            $hasil = "Tidak Memandai";
+            $hasil = "Tidak Memadai";
         }
 
         return $hasil;
